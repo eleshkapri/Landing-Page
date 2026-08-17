@@ -1,0 +1,72 @@
+/* ========================================================
+   AutoWash Design System - Global Variables & Reset
+   ======================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--color-black);
+  background-color: var(--shades-0);
+  overflow-x: hidden;
+}
+
+:root {
+  /* Fonts */
+  --font-poppins: 'Poppins', sans-serif;
+
+  /* Font Sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-4xl: 23px;
+  --font-size-6xl: 25px;
+  --font-size-15xl: 34px;
+  --font-size-23xl: 42px;
+  --font-size-29xl: 48px;
+  --font-size-57xl: 76px;
+
+  /* Colors */
+  --shades-0: #ffffff;
+  --shades-100: #0c0c0c;
+  --color-black: #000000;
+  --neutral-50: #f9f9f9;
+  --neutral-600: #4a4a4a;
+  --primary-500: #0c6d61;
+  --primary-700: #183a38;
+  --color-darkcyan: #339487;
+  --color-darkslategray-100: #333333;
+  --color-whitesmoke-100: #e7f0ef;
+  --color-gray-100: #858585;
+  --color-dimgray-100: #717171;
+  --color-dimgray-200: #6c6c6c;
+  --color-gainsboro-100: #e6e6e6;
+  --color-gainsboro-200: #dddddd;
+  --color-gainsboro-300: rgba(230, 230, 230, 0.09);
+  --color-teal-100: rgba(12, 109, 97, 0.1);
+  --color-lightgray: #d6d6d6;
+
+  /* Radiuses */
+  --br-5xs: 8px;
+  --br-xs: 12px;
+  --br-sm: 14px;
+  --br-base: 16px;
+  --br-9xl: 28px;
+  --br-23xl: 42px;
+  --br-29xl: 48px;
+  --br-181xl: 200px;
+}
