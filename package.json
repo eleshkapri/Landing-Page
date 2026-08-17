@@ -1,10 +1,11 @@
 {
   "name": "ld",
   "version": "1.0.0",
-  "description": "",
+  "description": "AutoWash Landing Page",
   "scripts": {
-    "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "dev": "parcel index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir build"
   },
   "author": "",
   "license": "ISC",
